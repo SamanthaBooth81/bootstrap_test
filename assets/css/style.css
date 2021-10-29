@@ -1,7 +1,44 @@
 body {
     font-family: 'Playfair Display', serif;
 }
-.alert-container {}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-collapse {
+    background-color: black;
+}
+
+.alert-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.alert{
+    border-radius: 0;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.alert-warning {
+    color: #443507;
+    background-color: #f7bf32;
+    border-color: #f7bf32;
+}
 
 .callout-container{
     height: 100vh;
@@ -44,7 +81,7 @@ body {
     color: rgb(226, 226, 226);
 }
 .jumbotron .lead {
-    color:#7e828d;
+    color:#a5a7ad;
 }
 
 .jumbotron-divider{
@@ -57,16 +94,20 @@ body {
     border-top: 2px solid #ffc107c4;
 }
 
-button.btn.btn-lg.btn--col {
+.btn--col {
     background: #a2795c;
     border-color: #a2795c;
     color: white;
 }
 
-button.btn.btn-lg.btn--col:hover {
+.btn--col:hover {
     background-color: #935f3a;
     border-color: #935f3a;
     color: white;
+}
+
+.btn-radius {
+    border-radius: 23px;
 }
 
 .quotes-container{}
