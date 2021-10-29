@@ -1,0 +1,53 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+.alert-container {}
+
+.callout-container{
+    height: 100vh;
+
+    background: url('../images/anastasia-zhenina-whisky-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Jumnotron */ 
+.jumbotron-header{
+    color: #ccd7dd;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.192);
+}
+.jumbotron small {
+    font-size: 65%;
+    font-style: italic;
+    color: rgb(226, 226, 226);
+}
+.jumbotron .lead {
+    color:#a2795c;
+}
+
+.jumbotron-divider{
+    border-top: 1px solid #ccd8dd;
+        height: 5px;
+        width: 150px;
+}
+
+.block-divider {
+    border-top: 2px solid #ffc107c4;
+}
+
+.quotes-container{}
+
+.features-container{}
+
+.monthly-fav-container{}
