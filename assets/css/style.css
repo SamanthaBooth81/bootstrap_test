@@ -15,17 +15,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Jumnotron */ 
 .jumbotron-header{
-    color: #ccd7dd;
+    color: rgb(226, 226, 226);
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .jumbotron {
-    background-color: rgba(255, 255, 255, 0.192);
+    background-color: transparent;
 }
 .jumbotron small {
     font-size: 65%;
@@ -33,17 +44,29 @@ body {
     color: rgb(226, 226, 226);
 }
 .jumbotron .lead {
-    color:#a2795c;
+    color:#7e828d;
 }
 
 .jumbotron-divider{
-    border-top: 1px solid #ccd8dd;
+    border-top: 3px solid #a2795c;
         height: 5px;
-        width: 150px;
+        width: 130px;
 }
 
 .block-divider {
     border-top: 2px solid #ffc107c4;
+}
+
+button.btn.btn-lg.btn--col {
+    background: #a2795c;
+    border-color: #a2795c;
+    color: white;
+}
+
+button.btn.btn-lg.btn--col:hover {
+    background-color: #935f3a;
+    border-color: #935f3a;
+    color: white;
 }
 
 .quotes-container{}
