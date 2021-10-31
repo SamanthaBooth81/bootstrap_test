@@ -124,11 +124,22 @@ body {
 
 /*Quotes stylling*/
 .row .media-body {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
+
+.quotes-container {
+    background-color: whitesmoke;
+}
+
+.quotes-boxes {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /*Stylling for features container*/
 .features-container{
     background-color: #a2795c;
+    margin-top: 0;
 }
 
 /*Stylling for all features headings*/
@@ -145,6 +156,45 @@ body {
 .features-center {
     text-align: center;
 }
+
+.features i {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.monthly-favourites {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+}
+
 .monthly-fav-container{
-    margin-bottom: 50px;
+    background-color: #213130;
+    padding-bottom: 50px;
+}
+
+.table-title {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.table-layout {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    align-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .table-layout {
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+    }   
 }
