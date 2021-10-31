@@ -105,6 +105,14 @@ body {
     color: white;
 }
 
+.btn-col-rev {
+    background-color: white;
+    border-color: white;
+    color: #a2795c;
+    min-width: 100px;
+    font-weight: bolder;
+}
+
 .btn--col:hover {
     background-color: #935f3a;
     border-color: #935f3a;
