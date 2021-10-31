@@ -91,7 +91,12 @@ body {
 }
 
 .block-divider {
-    border-top: 2px solid #ffc107c4;
+    border-top: 2px solid #a2795c;
+    width: 70px;
+}
+
+.features-divider {
+    border-top: 2px solid white;
 }
 
 .btn--col {
@@ -110,18 +115,36 @@ body {
     border-radius: 23px;
 }
 
-.quotes-container {
+/* headers stylling */
+.header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*Quotes stylling*/
+.row .media-body {
+    margin-bottom: 50px;
+}
+/*Stylling for features container*/
+.features-container{
     background-color: #a2795c;
 }
 
-.quotes-header {
-    margin-top: 30px;
+/*Stylling for all features headings*/
+.features-container h2, h3{
+    color: white;
 }
 
-.quotes-container blockquote {
-    margin: 50px;
+/*Features stylling*/
+.features-info {
+    margin-bottom: 50px;
 }
 
-.features-container{}
-
-.monthly-fav-container{}
+/*Align features items center*/
+.features-center {
+    text-align: center;
+}
+.monthly-fav-container{
+    margin-bottom: 50px;
+}
